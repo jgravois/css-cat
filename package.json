@@ -1,0 +1,25 @@
+{
+  "name": "css-cat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "https://codepen.io/davidkpiano/pen/Xempjq",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass style.scss style.css && serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jgravois/css-cat.git"
+  },
+  "author": "gravois",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jgravois/css-cat/issues"
+  },
+  "homepage": "https://github.com/jgravois/css-cat#readme",
+  "devDependencies": {
+    "sass": "^1.70.0",
+    "serve": "^14.2.1"
+  }
+}
